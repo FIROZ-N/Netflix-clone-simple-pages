@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-SignIn</title>
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/login.css">
+</head>
+
+<body>
+    <div class="logo">
+        <a href="#">
+            <img src="../assets/logo.png" alt="netflix-logo">
+        </a>
+    </div>
+    <div class="full-container">
+        <div class="container">
+            <div class="sub-container">
+                <h2>Sign In</h2>
+                <form action="../home/index.html">
+                    <input type="email" name="email" id="email" placeholder="Email or phone Number">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <br>
+                    <button class="btn" onclick="window.location.href='../home/index.html'">Sign In</button>
+                </form>
+                <div class="extras">
+                    <input type="checkbox"><label for="remember_me">Remember me</label>
+                </div>
+            </div>
+        </div>
+        <div class="container-footer">
+            <div class="sub-container-footer">
+                <p class="grey">New to Netflix?<a href="./register.html">Register Now</a><br><br> The page is protected by
+                    Google mCAPTCHA to ensure you're not a bot. <a href="#">Learn more</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

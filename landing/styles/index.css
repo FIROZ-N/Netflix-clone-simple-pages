@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family: "Roboto", sans-serif;
+    --primary-color: rgba(0, 0, 0, 0.24);
+    --body-image: linear-gradient(to top, rgba(0, 0, 0, 0.58) 50%, rgba(0, 0, 0, 0.58) 70%), url("../../assets/landing.jpg");
+    --normal-padding: 30px;
+    --logo-width-full: 120px;
+    --full-width: 100%;
+    --text-color: #FFF5EE;
+    --border-color: #FFF5EE;
+    --bg-color: rgba(0, 0, 0, 0.75);
+    --full-container-padding: 20px 30px;
+    --center-translate: translate(-50%, -50%);
+    --full-container-box-shadow: 0 0 2px var(--border-color);
+    --full-container-border: 2px solid rgba(255, 255, 255, 0.308);
+    --sub-conatiner-h2-custom-padding: 0 0 20px 0;
+    --general-border: 2px solid rgba(211, 211, 211, 0.13);
+    --custom-input-box: 10px;
+    --input-custom-margin: 0px;
+    --global-radius: 5px;
+    --placeholder: rgba(255, 255, 255, 0.555);
+    --btn-padding: 10px 30px;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--body-image);
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--normal-padding);
+}
+
+.logo>a>img {
+    width: var(--logo-width-full);
+}
+
+.logo > .btn, .btn {
+    background-color: red;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: var(--btn-padding);
+    border-radius: var(--global-radius);
+    font-weight: 500;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-title {
+    color: var(--text-color);
+    font-size: 55px;
+}
+
+.hero p {
+    color: #fff5eeb0;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.hero .btn {
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all ease-in-out .5s;
+    opacity: 100%;
+}
+
+.hero .btn:hover {
+    opacity: 70%;
+    transition: all ease-in-out .5s;
+}
+@media (max-width: 800px) {
+    .hero-title {
+        font-size: 40px;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+    .hero .btn {
+        font-size: 14px;
+    }
+}
