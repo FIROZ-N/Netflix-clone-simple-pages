@@ -1,4 +1,4 @@
-# 🎬 Netflix Frontend Clone - https://68287ccf55910bc4ef0c6bb9--net4126.netlify.app/user/register
+# 🎬 Netflix Frontend Clone - https://firoz-n.github.io/Netflix-clone-simple-pages/
 
 A responsive Netflix homepage clone built using **HTML**, **CSS**, and **Google Icons**. This is a **frontend-only** project created for learning and UI replication.
 
